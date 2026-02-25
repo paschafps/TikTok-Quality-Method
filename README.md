@@ -42,7 +42,7 @@ For troubleshooting and extended explanations, visit the official Discord.
 
 • FFmpeg installed
 • FFmpeg added to system PATH
-• Desktop browser upload recommended
+• **Desktop browser upload**
 
 ## Important Notes
 
