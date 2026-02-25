@@ -1,4 +1,4 @@
-# [TikTok Quality Method](https://www.youtube.com/watch?v=yalD261JOZ4)
+# TikTok Quality Method
 
 A Windows batch workflow built around FFmpeg to modify timing metadata for smoother platform uploads.
 
