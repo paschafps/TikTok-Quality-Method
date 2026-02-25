@@ -1,41 +1,59 @@
-# TikTok-Quality-Method
-FFmpeg-based FPS timing workflow for smoother platform uploads.
+# TikTok Quality Method
 
-## What this project is
+A Windows batch workflow built around FFmpeg to modify timing metadata for smoother platform uploads.
 
-TikTok Quality Method is a Windows batch workflow that modifies timing metadata using FFmpeg.
+## Overview
 
-It is designed for creators who want more consistent frame pacing after upload.
+TikTok Quality Method processes a video using FFmpeg timing flags.
 
-## Features (v1.0)
+The resulting file may appear slowed, broken, or incorrect when played locally.
 
-• Manual file workflow (input.mp4 → output.mp4)
-• 60 FPS support
-• 120 FPS support
-• 240 FPS experimental
-• FFmpeg-based processing
+This is expected behavior.
+
+After upload, the platform interprets the timing metadata differently, which results in smoother playback.
+
+This workflow does not upscale resolution or artificially increase quality.
+It modifies how timing metadata is interpreted during platform processing.
+
+## What This Is
+
+• A metadata-based timing workflow
+• A Windows .bat script using FFmpeg
+• Designed for desktop browser uploads
+• Intended for creators working in 60–120 FPS workflows
+
+## What This Is Not
+
+• Not a resolution upscaler
+• Not a magic bitrate booster
+• Not guaranteed to bypass all platform compression
+
+## Usage
+
+Each release may introduce workflow changes.
+
+Download the desired version from the Releases section.
+
+Follow the instructions provided in that specific release.
+
+For troubleshooting and extended explanations, visit the official Discord.
 
 ## Requirements
 
 • FFmpeg installed
 • FFmpeg added to system PATH
-• Desktop browser upload
+• Desktop browser upload recommended
 
-## Installation
+## Important Notes
 
-Install FFmpeg
+• Do not judge the processed file locally.
+• Upload from desktop browser.
+• Do not incorrectly upscale footage.
 
-Download the latest release from the Releases section
+## Release History
 
-Extract the zip
+Version-specific changes are documented in the Releases section.
 
-Follow the release instructions
-
-## Important
-
-The processed file may look slowed or broken locally.
-This is normal behavior. Platform playback interprets timing metadata differently.
-
-## Official Discord
+# Official Discord
 
 https://discord.com/invite/EDaJ2NkAZh
